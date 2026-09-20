@@ -1,0 +1,50 @@
+:root {
+  --content-width: 600px;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --text-color: #222;
+  --muted: #999;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-serif);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.editor-title {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: var(--font-serif);
+  margin-bottom: 8px;
+}
+
+.editor-content {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 19px;
+  font-family: var(--font-serif);
+  line-height: 1.6;
+}
+
+.publish-btn {
+  margin-top: 24px;
+  padding: 10px 24px;
+  font-size: 16px;
+  background: #3a9bdc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
